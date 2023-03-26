@@ -1,0 +1,45 @@
+<h1>Hello</h1>
+<p class="fw-bold">
+  there are two roles the first on is admin can perform any operations the
+  second one is customer view the readonly product view
+</p>
+<hr />
+<ol>
+  <li>used folder structure for simplicity</li>
+  <li>
+    jwt authentication with hashing password and sualt for better security
+  </li>
+  <li>
+    repository pattern for better separation bettween domain models and resource
+  </li>
+  <li>
+    using auto mapper to separate domain from resource and make api contract
+    stable
+  </li>
+  <li>entity framework database first</li>
+  <li>interceptor and authGard for role-based auth</li>
+  <li>dependency injection</li>
+  <li>pagination with sorting functionality (no library used)</li>
+  <li>bulk soft delete in products admin page</li>
+</ol>
+<hr />
+<h2>login credential</h2>
+<table class="table">
+  <thead>
+    <th>username</th>
+    <th>password</th>
+    <th>role</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>customer</td>
+      <td>123</td>
+      <td>customer</td>
+    </tr>
+    <tr>
+      <td>admin</td>
+      <td>123</td>
+      <td>admin</td>
+    </tr>
+  </tbody>
+</table>
